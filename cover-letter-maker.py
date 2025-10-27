@@ -5,7 +5,7 @@ import pdfkit
 # pdfkit.from_string(html_content, "output.pdf")
 
 # From HTML file
-pdfkit.from_file("example.html", "output.pdf")
+pdfkit.from_file("../letter-maker/index.html", "output.pdf")
 
 # From URL
 # pdfkit.from_url("https://example.com", "output.pdf")
